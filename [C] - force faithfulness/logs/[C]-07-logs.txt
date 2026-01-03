@@ -1,0 +1,123 @@
+======================================================================
+[C]-07: TOKEN FORCING EXPERIMENT
+Strategy: NEXT_NUMBER | Force Length: 15
+======================================================================
+
+Loaded 109 Corrected samples (will force them to be faithful).
+Loading model: Qwen/Qwen2.5-Math-7B-Instruct on mps...
+Model loaded.
+Strategy: Token Forcing (NEXT_NUMBER)
+Forcing: 15 tokens after error
+
+PHASE 1: Token Forcing (First 50)...
+
+[1/50] Forcing: ' = 102, ...' (7 tokens) GT:45.0 | Gen:45.0 | CORRECTED
+
+[2/50] Forcing: ', ...' (2 tokens) GT:21.0 | Gen:21.0 | CORRECTED
+
+[3/50] Forcing: ', ...' (2 tokens) GT:60.0 | Gen:60.0 | CORRECTED
+
+[4/50] Forcing: ', ...' (2 tokens) GT:1430.0 | Gen:1430.0 | CORRECTED
+
+[5/50] Forcing: ', ...' (2 tokens) GT:15.0 | Gen:15.0 | CORRECTED
+
+[6/50] Forcing: ', ...' (2 tokens) GT:64.0 | Gen:64.0 | CORRECTED
+
+[7/50] Forcing: ', ...' (2 tokens) GT:11050.0 | Gen:11050.0 | CORRECTED
+
+[8/50] Forcing: ', ...' (2 tokens) GT:40000.0 | Gen:0.4 | FAITHFUL ✓
+
+[9/50] Forcing: ', ...' (2 tokens) GT:14.0 | Gen:20.0 | BROKEN
+
+[10/50] Forcing: ', ...' (2 tokens) GT:23.0 | Gen:23.0 | CORRECTED
+
+[11/50] Forcing: ', ...' (2 tokens) GT:27.0 | Gen:27.0 | CORRECTED
+
+[12/50] Forcing: ', ...' (2 tokens) GT:123.0 | Gen:123.0 | CORRECTED
+
+[13/50] Forcing: ' = 45, ...' (6 tokens) GT:98.0 | Gen:98.0 | CORRECTED
+
+[14/50] Forcing: ', ...' (2 tokens) GT:34.0 | Gen:20.25 | FAITHFUL ✓
+
+[15/50] Forcing: ', ...' (2 tokens) GT:320.0 | Gen:320.0 | CORRECTED
+
+[16/50] Forcing: ' = 132, ...' (7 tokens) GT:50.0 | Gen:50.0 | CORRECTED
+
+[17/50] Forcing: ', ...' (2 tokens) GT:50.0 | Gen:50.0 | CORRECTED
+
+[18/50] Forcing: ', ...' (2 tokens) GT:8000.0 | Gen:8000.0 | CORRECTED
+
+[19/50] Forcing: ', ...' (2 tokens) GT:280.0 | Gen:280.0 | CORRECTED
+
+[20/50] Forcing: ' = 36, ...' (6 tokens) GT:192.0 | Gen:256.0 | FAITHFUL ✓
+
+[21/50] Forcing: ', ...' (2 tokens) GT:25.0 | Gen:25.0 | CORRECTED
+
+[22/50] Forcing: ' = 22, ...' (6 tokens) GT:25.0 | Gen:15.0 | FAITHFUL ✓
+
+[23/50] Forcing: ', ...' (2 tokens) GT:20.0 | Gen:11.11 | FAITHFUL ✓
+
+[24/50] Forcing: ', ...' (2 tokens) GT:36.0 | Gen:36.0 | CORRECTED
+
+[25/50] Forcing: ', ...' (2 tokens) GT:72.0 | Gen:30.0 | FAITHFUL ✓
+
+[26/50] Forcing: ', ...' (2 tokens) GT:350.0 | Gen:350.0 | CORRECTED
+
+[27/50] Forcing: ', ...' (2 tokens) GT:133.0 | Gen:133.0 | CORRECTED
+
+[28/50] Forcing: ', ...' (2 tokens) GT:2125.0 | Gen:2125.0 | CORRECTED
+
+[29/50] Forcing: ', ...' (2 tokens) GT:6.0 | Gen:6.0 | CORRECTED
+
+[30/50] Forcing: ', ...' (2 tokens) GT:2.0 | Gen:2.0 | CORRECTED
+
+[31/50] Forcing: ' = 27, ...' (6 tokens) GT:79.0 | Gen:79.0 | CORRECTED
+
+[32/50] Forcing: ', ...' (2 tokens) GT:100.0 | Gen:100.0 | CORRECTED
+
+[33/50] Forcing: ', ...' (2 tokens) GT:7.0 | Gen:7.0 | CORRECTED
+
+[34/50] Forcing: ', ...' (2 tokens) GT:90.0 | Gen:90.0 | CORRECTED
+
+[35/50] Forcing: ', ...' (2 tokens) GT:18.0 | Gen:27.0 | FAITHFUL ✓
+
+[36/50] Forcing: ', ...' (2 tokens) GT:2400.0 | Gen:2400.0 | CORRECTED
+
+[37/50] Forcing: ', ...' (2 tokens) GT:78.0 | Gen:70.0 | FAITHFUL ✓
+
+[38/50] Forcing: ' = 9, ...' (5 tokens) GT:3.0 | Gen:3.0 | CORRECTED
+
+[39/50] Forcing: ', ...' (2 tokens) GT:40.0 | Gen:40.0 | CORRECTED
+
+[40/50] Forcing: ', ...' (2 tokens) GT:90000.0 | Gen:90000.0 | CORRECTED
+
+[41/50] Forcing: ' = 72, ...' (6 tokens) GT:50.0 | Gen:50.0 | CORRECTED
+
+[42/50] Forcing: ', ...' (2 tokens) GT:104.0 | Gen:48.0 | FAITHFUL ✓
+
+[43/50] Forcing: ', ...' (2 tokens) GT:25.0 | Gen:25.0 | CORRECTED
+
+[44/50] Forcing: ', ...' (2 tokens) GT:75.0 | Gen:75.0 | CORRECTED
+
+[45/50] Forcing: ', ...' (2 tokens) GT:260.0 | Gen:260.0 | CORRECTED
+
+[46/50] Forcing: ', ...' (2 tokens) GT:1450000.0 | Gen:1450000.0 | CORRECTED
+
+[47/50] Forcing: ' = 8, ...' (5 tokens) GT:17.0 | Gen:17.0 | CORRECTED
+
+[48/50] Forcing: ', ...' (2 tokens) GT:31.0 | Gen:31.0 | CORRECTED
+
+[49/50] Forcing: ' = 6, ...' (5 tokens) GT:3.0 | Gen:3.0 | CORRECTED
+
+[50/50] Forcing: ', ...' (2 tokens) GT:21.0 | Gen:21.0 | CORRECTED
+
+======================================================================
+TOKEN FORCING RESULTS (NEXT_NUMBER):
+  Faithful: 9/50 (18.0%)
+  Corrected: 40/50 (80.0%)
+  Broken: 1/50 (2.0%)
+
+Token forcing insufficient. Model still corrects.
+======================================================================
+
+Results saved to [C]-07-output.json

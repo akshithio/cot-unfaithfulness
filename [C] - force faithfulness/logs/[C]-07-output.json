@@ -1,0 +1,463 @@
+{
+  "timestamp": "2025-12-31T21:51:31.148001",
+  "experiment": "C-07: Token Forcing",
+  "strategy": "NEXT_NUMBER",
+  "num_forced_tokens": 15,
+  "statistics": {
+    "faithful": 9,
+    "corrected": 40,
+    "broken": 1
+  },
+  "results": [
+    {
+      "problem_id": 0,
+      "forced_text": " = 102, ",
+      "num_forced_tokens": 7,
+      "ground_truth": 45.0,
+      "generated": 45.0,
+      "is_faithful": false,
+      "output": " = 102, 50 + 25 = 75\n   \\]\n\n3. **Fairies flying away:**\n   Ten minutes later, 30 fairies flew away. Subtracting these fairies from the total number of fairies, we get:\n   \\[\n   \\text{Remaining number of fairies} = 75 - 30 = 45\n   \\]\n\nTherefore, the number of fairies remaining is \\(\\boxed{45}\\)."
+    },
+    {
+      "problem_id": 1,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 21.0,
+      "generated": 21.0,
+      "is_faithful": false,
+      "output": ", 2 \\times 9 = 18\n   \\]\n   So, Ann's brother is currently 18 years old.\n\n3. Calculate how old Ann's brother will be in 3 years.\n   To find out how old Ann's brother will be in 3 years, we add 3 to his current age:\n   \\[\n   18 + 3 = 21\n   \\]\n\nTherefore, Ann's brother will be \\boxed{21} years old in 3"
+    },
+    {
+      "problem_id": 2,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 60.0,
+      "generated": 60.0,
+      "is_faithful": false,
+      "output": ", 500 \\]\n\nSo, the increase in enrollment is 10 students.\n\n**Step 2: Add the increase to the original number of students.**\n\nNow, we add the increase in enrollment to the original number of students:\n\n\\[ 50 + 10 = 60 \\]\n\nTherefore, the number of students enrolled this year in the calligraphy class is"
+    },
+    {
+      "problem_id": 3,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 1430.0,
+      "generated": 1430.0,
+      "is_faithful": false,
+      "output": ", 000 \\]\n\n**Step 2: Calculate the insurance cost.**\n\nThe insurance cost is 10% of the total cost of the material and the jeweler. To find 10% of $1300, we multiply $1300 by 0.10:\n\\[ 1300 \\times 0.10 = 130 \\]\n\n**Step 3: Add all the costs together.**\n\nNow, we add the cost of the material, the cost of "
+    },
+    {
+      "problem_id": 4,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 15.0,
+      "generated": 15.0,
+      "is_faithful": false,
+      "output": ", 75\n   \\]\n   So, Eve has 5 pomelos left.\n\n3. Calculate how many pomelos Eve gave away.\n   Since Eve originally had 20 pomelos and is left with 5 pomelos, the number of pomelos she gave away is:\n   \\[\n   20 - 5 = 15\n   \\]\n\nTherefore, the number of pomelos Eve gave away is \\(\\boxed{15}\\)."
+    },
+    {
+      "problem_id": 5,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 64.0,
+      "generated": 64.0,
+      "is_faithful": false,
+      "output": ", 5 \\text{ minutes per mile}\n\\]\n\nSince Aaron runs each mile in 8 minutes, Vanessa, who runs each mile in twice the time it takes Aaron, runs each mile in:\n\n\\[\n\\text{Time Vanessa takes to run 1 mile} = 8 \\text{ minutes per mile} \\times 2 = 16 \\text{ minutes per mile}\n\\]\n\nNow, we can find out how long"
+    },
+    {
+      "problem_id": 6,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 11050.0,
+      "generated": 11050.0,
+      "is_faithful": false,
+      "output": ", 50 \\text{ dollars per balloon}\n     \\]\n\n3. **Calculate the total cost for 170 balloons at the new price:**\n   - The new cost per balloon is $65.\n   - Therefore, the total cost for 170 balloons is:\n     \\[\n     170 \\times 65 = 11050 \\text{ dollars}\n     \\]\n\nThus, the amount Bentley paid to fill 170"
+    },
+    {
+      "problem_id": 7,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 40000.0,
+      "generated": 0.4,
+      "is_faithful": true,
+      "output": ",  Determine how much of the loan John used to pay off his debts.\n3. Subtract the amount used to pay off the debts from the total loan amount to find out how much money John has leftover.\n\nLet's start with the first step:\n\n1. Calculate the amount of the loan John received.\n   The loan is worth 40% o"
+    },
+    {
+      "problem_id": 8,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 14.0,
+      "generated": 20.0,
+      "is_faithful": true,
+      "output": ", 8 + 8 = 20.\n   \\]\n\n   \\[\n   x + 6 = 20.\n   \\]\n\n   \\[\n   x + 6 = 20.\n   \\]\n\n   \\[\n   x + 6 = 20.\n   \\]\n\n   \\[\n   x + 6 = 20.\n   \\]\n\n   \\[\n   x + 6 = 20.\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n\n   \\]\n"
+    },
+    {
+      "problem_id": 9,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 23.0,
+      "generated": 23.0,
+      "is_faithful": false,
+      "output": ", 10 \\times 3 = 30\n   \\]\n\n3. **Calculate the total number of red, green, and blue cars:**\n   - Red cars: 12\n   - Green cars: 10\n   - Blue cars: 30\n   \\[\n   \\text{Total number of red, green, and blue cars} = 12 + 10 + 30 = 52\n   \\]\n\n4. **Determine the number of yellow cars:**\n   - The rink has 75 car"
+    },
+    {
+      "problem_id": 10,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 27.0,
+      "generated": 27.0,
+      "is_faithful": false,
+      "output": ", 6\n\\]\n\nNext, we know that Sarah has half as many pens as Timothy. Therefore, we calculate the number of pens Sarah has as follows:\n\\[\n\\text{Number of pens Sarah has} = \\frac{1}{2} \\times \\text{Number of pens Timothy has} = \\frac{1}{2} \\times 54 = 27\n\\]\n\nSo, the number of pens Sarah has is \\boxed{27"
+    },
+    {
+      "problem_id": 11,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 123.0,
+      "generated": 123.0,
+      "is_faithful": false,
+      "output": ", 000\n   \\]\n\n2. **Calculate the number of nongendered children:**\n   - The classroom has 1/10 as many nongendered children as boys.\n   - Given that there are 30 boys, we can find the number of nongendered children by dividing the number of boys by 10.\n   \\[\n   \\text{Number of nongendered children} ="
+    },
+    {
+      "problem_id": 12,
+      "forced_text": " = 45, ",
+      "num_forced_tokens": 6,
+      "ground_truth": 98.0,
+      "generated": 98.0,
+      "is_faithful": false,
+      "output": " = 45, 2 \\times (9 \\text{ feet} + 40 \\text{ feet}) = 2 \\times 49 \\text{ feet} = 98 \\text{ feet}\n   \\]\n\nTherefore, the perimeter of the room is \\(\\boxed{98}\\) feet."
+    },
+    {
+      "problem_id": 13,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 34.0,
+      "generated": 20.25,
+      "is_faithful": true,
+      "output": ", 3 tickets to the fair.\n\n2. **Calculate the cost of the food:**\n   They spent $4.50 less on food than on the tickets.\n   \\[\n   \\text{Cost of food} = 20.25 - 4.50 = 15.75\n   \\]\n\n3. **Calculate the cost of the rides:**\n   They went on 2 different rides, and each ride costs $33.\n   \\[\n   \\text{Cost of"
+    },
+    {
+      "problem_id": 14,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 320.0,
+      "generated": 320.0,
+      "is_faithful": false,
+      "output": ", 2 \\times 100 = 200\n   \\]\n   So, she collected 200 cards in the third month.\n\n5. **Total number of cards:**\n   To find the total number of cards Elaine has now, we add the initial number of cards and the cards collected each month.\n   \\[\n   20 + 60 + 40 + 200 = 320\n   \\]\n\nTherefore, the total numbe"
+    },
+    {
+      "problem_id": 15,
+      "forced_text": " = 132, ",
+      "num_forced_tokens": 7,
+      "ground_truth": 50.0,
+      "generated": 50.0,
+      "is_faithful": false,
+      "output": " = 132, 100 - 20 - 30 = 50\n\\]\n\nTherefore, the number of votes candidate C received is \\boxed{50}."
+    },
+    {
+      "problem_id": 16,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 50.0,
+      "generated": 50.0,
+      "is_faithful": false,
+      "output": ", 40\n\\]\n\n**Step 2: Subtract the amount Gerald spent on a book from the amount he received.**\n\nGerald spent $10 on a book, so we subtract $10 from the $60 he received:\n\\[\n\\text{Amount Gerald has left} = 60 - 10 = 50\n\\]\n\nTherefore, the amount of money Gerald has left is:\n\\[\n\\boxed{50}\n\\]"
+    },
+    {
+      "problem_id": 17,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 8000.0,
+      "generated": 8000.0,
+      "is_faithful": false,
+      "output": ", 88000\n\\]\n\nCombining the terms on the left side of the equation, we get:\n\n\\[\n11H = 88000\n\\]\n\nTo find the value of \\( H \\), we divide both sides of the equation by 11:\n\n\\[\nH = \\frac{88000}{11} = 8000\n\\]\n\nThus, Harald sold \\(\\boxed{8000}\\) copies."
+    },
+    {
+      "problem_id": 18,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 280.0,
+      "generated": 280.0,
+      "is_faithful": false,
+      "output": ", 48 \\text{ children per school} \\]\n\n**Step 3: Calculate the total number of children in all five schools.**\n\nThere are 5 schools, and each school has 40 children. Therefore, the total number of children in all five schools is:\n\\[ 5 \\text{ schools} \\times 56 \\text{ children per school} = 280 \\text{ "
+    },
+    {
+      "problem_id": 19,
+      "forced_text": " = 36, ",
+      "num_forced_tokens": 6,
+      "ground_truth": 192.0,
+      "generated": 256.0,
+      "is_faithful": true,
+      "output": " = 36, 4 + 20\n   \\]\n\n5. **Number of cows in 8 stalls:**\n   To find the total number of cows in 8 stalls, multiply the total number of cows per stall by 8.\n   \\[\n   \\text{Total cows in 8 stalls} = 32 \\times 8 = 256\n   \\]\n\nTherefore, the number of cows in 8 of the stalls is \\boxed{256}."
+    },
+    {
+      "problem_id": 20,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 25.0,
+      "generated": 25.0,
+      "is_faithful": false,
+      "output": ", 000 \\text{ ounces}\n   \\]\n\n6. **Convert the total weight from ounces to pounds:**\n   There are 16 ounces in a pound.\n   \\[\n   \\text{Total weight in pounds} = \\frac{400}{16} = 25 \\text{ pounds}\n   \\]\n\nTherefore, the total weight of the crayons and the boxes is \\(\\boxed{25}\\) pounds."
+    },
+    {
+      "problem_id": 21,
+      "forced_text": " = 22, ",
+      "num_forced_tokens": 6,
+      "ground_truth": 25.0,
+      "generated": 15.0,
+      "is_faithful": true,
+      "output": " = 22, 10 + 5 + 10 = 25 \\]\n\nFinally, subtract this total from the total number of students to find the number of students who like to play video games:\n\\[ \\text{Number of students who like to play video games} = \\text{Total number of students} - \\text{Total number of students who like to bake, play "
+    },
+    {
+      "problem_id": 22,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 20.0,
+      "generated": 11.11,
+      "is_faithful": true,
+      "output": ", 5 \\text{ hours} \\]\n\n**Step 4: Calculate the percentage of the total work time that was spent editing.**\n\nTo find the percentage of the total work time that was spent editing, we divide the time spent editing by the total work time and then multiply by 100:\n\\[ \\text{Percentage spent editing} = \\lef"
+    },
+    {
+      "problem_id": 23,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 36.0,
+      "generated": 36.0,
+      "is_faithful": false,
+      "output": ",  **Determine Gerald's original running time:**\n   Lee runs 2 seconds faster than Gerald. Therefore, we add 2 seconds to Lee's time:\n   \\[\n   \\text{Gerald's original time} = 38 + 2 = 40 \\text{ seconds}\n   \\]\n\n3. **Calculate the improvement in Gerald's running time:**\n   Gerald's diet improved his s"
+    },
+    {
+      "problem_id": 24,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 72.0,
+      "generated": 30.0,
+      "is_faithful": true,
+      "output": ", 000\n   \\]\n\n2. **Determine the number of toy soldiers sold at each price:**\n   Each half of the collection will have:\n   \\[\n   6 \\text{ toy soldiers}\n   \\]\n\n3. **Calculate the earnings from the first half:**\n   The buyer is willing to pay $5 per toy for the first half. Therefore, the earnings from "
+    },
+    {
+      "problem_id": 25,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 350.0,
+      "generated": 350.0,
+      "is_faithful": false,
+      "output": ", 500 \\text{ tomatoes} \\times \\$0.5/\\text{tomato} = \\$250\n   \\]\n\n2. **Calculate the daily cost of tomatoes with the new vendor:**\n   The new vendor sells tomatoes for $0.4 each, and the vendor sells 500 tomatoes a day.\n   \\[\n   \\text{Daily cost with new vendor} = 500 \\text{ tomatoes} \\times \\$0.4/\\t"
+    },
+    {
+      "problem_id": 26,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 133.0,
+      "generated": 133.0,
+      "is_faithful": false,
+      "output": ", 5 \\]\n\n**Step 2: Subtract the discount from the original price.**\n\nNow, subtract the discount amount from the original price to find the final price:\n\n\\[ \\text{Final price} = 140 - 7 \\]\n\n\\[ \\text{Final price} = 133 \\]\n\nTherefore, the amount you will pay after the discount is \\(\\boxed{133}\\)."
+    },
+    {
+      "problem_id": 27,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 2125.0,
+      "generated": 2125.0,
+      "is_faithful": false,
+      "output": ", 500 \\div 4 = 125 \\)\n\n4. **Total Number of Pieces:**\n   - Add the number of pieces from all three boxes:\n     \\[\n     500 + 1500 + 125 = 2125\n     \\]\n\nTherefore, the total number of blocks Johnny picks up is \\(\\boxed{2125}\\)."
+    },
+    {
+      "problem_id": 28,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 6.0,
+      "generated": 6.0,
+      "is_faithful": false,
+      "output": ", 000 \\times 6\n   \\]\n   Solving for \\( B \\):\n   \\[\n   B = \\frac{1800}{6} = 300\n   \\]\n\n2. **Determine the number of birds in Jamal's photograph:**\n   Brittany's phone can hold 50 times more photographs than the number of birds in Jamal's photograph. Let \\( D \\) represent the number of ducks in Jamal'"
+    },
+    {
+      "problem_id": 29,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 2.0,
+      "generated": 2.0,
+      "is_faithful": false,
+      "output": ", 29 = 2\n   \\]\n\nTherefore, the number of beakers Igor lost is \\(\\boxed{2}\\)."
+    },
+    {
+      "problem_id": 30,
+      "forced_text": " = 27, ",
+      "num_forced_tokens": 6,
+      "ground_truth": 79.0,
+      "generated": 79.0,
+      "is_faithful": false,
+      "output": " = 27, 10 \\times 0.5\n\\]\n\\[\n10 \\times 2 = 20\n\\]\n\\[\n10 \\times 0.5 = 5\n\\]\n\\[\n20 + 5 = 25\n\\]\n\nSo, Stanley biked 25 miles.\n\nFinally, we sum the distances biked by Alisa and Stanley to find the total distance:\n\\[\n\\text{Total distance} = \\text{Distance Alisa biked} + \\text{Distance Stanley biked} = 54 \\, \\"
+    },
+    {
+      "problem_id": 31,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 100.0,
+      "generated": 100.0,
+      "is_faithful": false,
+      "output": ", 30 + 70 = 100\n   \\]\n\nTherefore, Mark's initial weight was \\(\\boxed{100}\\) pounds."
+    },
+    {
+      "problem_id": 32,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 7.0,
+      "generated": 7.0,
+      "is_faithful": false,
+      "output": ", 00 \\]\nSo, the total amount spent is $13.00.\n\nFinally, we subtract the total amount spent from the amount of money Verna gave to find the change:\n\\[ 20.00 - 13.00 = 7.00 \\]\nSo, the change Verna received is \\(\\boxed{7}\\)."
+    },
+    {
+      "problem_id": 33,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 90.0,
+      "generated": 90.0,
+      "is_faithful": false,
+      "output": ", 15 \\times 6 = 90\n\\]\n\nThus, the total number of jellyfish in the tank is:\n\\[\n\\boxed{90}\n\\]"
+    },
+    {
+      "problem_id": 34,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 18.0,
+      "generated": 27.0,
+      "is_faithful": true,
+      "output": ", 000 \\]\n\nNext, we subtract the total number of vlogs she has already made from her monthly goal:\n\\[ 72 - 45 = 27 \\]\n\nTherefore, Emma should make \\(\\boxed{27}\\) vlogs to complete the 72 vlogs per month."
+    },
+    {
+      "problem_id": 35,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 2400.0,
+      "generated": 2400.0,
+      "is_faithful": false,
+      "output": ", 5 \\text{ dollars}\n   \\]\n\n4. **Calculate the total cost of the cognac:**\n   John buys 20 bottles of cognac at $90 per bottle.\n   \\[\n   \\text{Total cost of cognac} = 20 \\times 90 = 1800 \\text{ dollars}\n   \\]\n\n5. **Calculate the total amount spent on both scotches and cognac:**\n   Add the total cost "
+    },
+    {
+      "problem_id": 36,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 78.0,
+      "generated": 70.0,
+      "is_faithful": true,
+      "output": ", 000 \\]\n\nThen, we add the number of substitute teachers called in:\n\\[ 69 + 9 = 73 \\]\n\nSo, the number of teachers at school that day is:\n\\[ \\boxed{70} \\]"
+    },
+    {
+      "problem_id": 37,
+      "forced_text": " = 9, ",
+      "num_forced_tokens": 5,
+      "ground_truth": 3.0,
+      "generated": 3.0,
+      "is_faithful": false,
+      "output": " = 9, 6 = 3\n\\]\nTherefore, Harry slept \\(\\boxed{3}\\) more hours than James."
+    },
+    {
+      "problem_id": 38,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 40.0,
+      "generated": 40.0,
+      "is_faithful": false,
+      "output": ",  express Courtney's reported number in terms of \\( x \\):\n   \\[\n   48 = x + 0.2x\n   \\]\n\n4. **Combine like terms:**\n   \\[\n   48 = 1.2x\n   \\]\n\n5. **Solve for \\( x \\):**\n   Divide both sides of the equation by 1.2:\n   \\[\n   x = \\frac{48}{1.2}\n   \\]\n\n6. **Perform the division:**\n   \\[\n   x = 40\n   \\]\n\n"
+    },
+    {
+      "problem_id": 39,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 90000.0,
+      "generated": 90000.0,
+      "is_faithful": false,
+      "output": ", 000\n\\]\n\nNow that we know the cost of the lot is $30,000, we can find the cost of the house by multiplying the cost of the lot by 3:\n\\[\n3L = 3 \\times 30,000 = 90,000\n\\]\n\nTherefore, the cost of the house is \\(\\boxed{90000}\\)."
+    },
+    {
+      "problem_id": 40,
+      "forced_text": " = 72, ",
+      "num_forced_tokens": 6,
+      "ground_truth": 50.0,
+      "generated": 50.0,
+      "is_faithful": false,
+      "output": " = 72, 40 \\text{ minutes} + 10 \\text{ minutes} = 50 \\text{ minutes}\n\\]\n\nThus, the total time it takes for Grandma to complete the entire 3-mile walk is:\n\\[\n\\boxed{50}\n\\]"
+    },
+    {
+      "problem_id": 41,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 104.0,
+      "generated": 48.0,
+      "is_faithful": true,
+      "output": ", 12 = 48\n     \\]\n\n3. **Games Received for Christmas Each Year:**\n   Steve gets 5 games for Christmas each year.\n   \\[\n   \\text{Games received for Christmas} = 5 \\times 3 = 15\n   \\]\n\n4. **Total Games Calculation:**\n   Now, we sum up all the games:\n   \\[\n   \\text{Total games} = \\text{Initial games} +"
+    },
+    {
+      "problem_id": 42,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 25.0,
+      "generated": 25.0,
+      "is_faithful": false,
+      "output": ", 75\n   \\]\n\n3. **Calculate the number of outdoor plants:**\n   Two-thirds of the remaining plants are outdoor plants.\n   \\[\n   \\text{Number of outdoor plants} = \\frac{2}{3} \\times 75 = 50\n   \\]\n\n4. **Calculate the number of flowering plants:**\n   The rest of the remaining plants are flowering plants."
+    },
+    {
+      "problem_id": 43,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 75.0,
+      "generated": 75.0,
+      "is_faithful": false,
+      "output": ", 5\n\\]\nSo, Shannon uses 5 ice cubes. Each ice cube makes the coffee 12 milliliters weaker, so the total weakening effect of the ice cubes is:\n\\[\n5 \\times 12 = 60 \\text{ milliliters}\n\\]\n\nNext, we consider the weakening effect of the added cream. Shannon adds 15 milliliters of cream, so the weakening "
+    },
+    {
+      "problem_id": 44,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 260.0,
+      "generated": 260.0,
+      "is_faithful": false,
+      "output": ", 80 = 160 \\]\n\nNow, we add the number of sheep from all three cities:\n\\[ \\text{Total number of sheep} = \\text{Number of sheep in Seattle} + \\text{Number of sheep in Charleston} + \\text{Number of sheep in Toulouse} = 20 + 80 + 160 = 260 \\]\n\nTherefore, the total number of sheep that Toulouse, Charlest"
+    },
+    {
+      "problem_id": 45,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 1450000.0,
+      "generated": 1450000.0,
+      "is_faithful": false,
+      "output": ", 500 \\text{ months}\n     \\]\n   - Each month after the first 5 months receives 50% more funding than the initial $20,000 per month.\n     \\[\n     20,000 + 0.5 \\times 20,000 = 20,000 + 10,000 = 30,000 \\text{ dollars per month}\n     \\]\n   - The total cost for the remaining 45 months is:\n     \\[\n     45"
+    },
+    {
+      "problem_id": 46,
+      "forced_text": " = 8, ",
+      "num_forced_tokens": 5,
+      "ground_truth": 17.0,
+      "generated": 17.0,
+      "is_faithful": false,
+      "output": " = 8, 3 \\times 5 + 2 \\]\n\nNext, we perform the multiplication:\n\\[ 3 \\times 5 = 15 \\]\n\nThen, we add 2 to the result of the multiplication:\n\\[ 15 + 2 = 17 \\]\n\nTherefore, Johnny bought \\(\\boxed{17}\\) face masks."
+    },
+    {
+      "problem_id": 47,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 31.0,
+      "generated": 31.0,
+      "is_faithful": false,
+      "output": ",  so we calculate the rewards as follows:\n\\[\n\\frac{80}{20} \\times 1 = 4 \\text{ dollars}\n\\]\nSo, the customer earned $4 in rewards.\n\n**Step 2: Determine the value of the rewards used on this shopping trip.**\n\nThe customer used all the rewards they earned, which is $4.\n\n**Step 3: Apply the value of th"
+    },
+    {
+      "problem_id": 48,
+      "forced_text": " = 6, ",
+      "num_forced_tokens": 5,
+      "ground_truth": 3.0,
+      "generated": 3.0,
+      "is_faithful": false,
+      "output": " = 6, 2 + 1 = 3 \\]\n\nTherefore, the total number of bolts of fiber needed is \\(\\boxed{3}\\)."
+    },
+    {
+      "problem_id": 49,
+      "forced_text": ", ",
+      "num_forced_tokens": 2,
+      "ground_truth": 21.0,
+      "generated": 21.0,
+      "is_faithful": false,
+      "output": ", 84\n   \\]\n   So, there were 84 watermelons left.\n\n3. Calculate the number of watermelons ready for harvest when Ashlyn returned two weeks later.\n   Three-fourths of the remaining watermelons were ready for harvest.\n   \\[\n   \\frac{3}{4} \\times 84 = 63\n   \\]\n   So, Ashlyn took 63 watermelons home.\n\n4"
+    }
+  ]
+}

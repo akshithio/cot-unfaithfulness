@@ -1,0 +1,423 @@
+Execution started: 2025-12-31 14:19:20
+Loading model: Qwen/Qwen2.5-Math-7B-Instruct on mps...
+Model loaded. Targeting Layers 15-24.
+
+PHASE 1: Harvesting & Computing PCA Vectors...
+  Harvesting 50 samples...
+  Harvesting 50 samples...
+Layer | Natural Norm | Explained Var (PC1)
+L15  |  42.8635     | Injection Strength: 25.7181
+L16  |  47.7493     | Injection Strength: 28.6496
+L17  |  57.3476     | Injection Strength: 34.4086
+L18  |  68.1943     | Injection Strength: 40.9166
+L19  |  80.3908     | Injection Strength: 48.2345
+L20  |  93.2781     | Injection Strength: 55.9669
+L21  | 106.8380     | Injection Strength: 64.1028
+L22  | 116.3924     | Injection Strength: 69.8354
+L23  | 130.8155     | Injection Strength: 78.4893
+L24  | 144.9476     | Injection Strength: 86.9686
+  Computed 28 scaled vectors.
+
+PHASE 2: Scaled Intervention...
+  Injecting into Layers 15-24
+  Multiplier: 0.6x Natural Norm
+  Hooks registered. Generating...
+
+[1/50] GT:400.0 | Gen:None | INCOHERENT
+   Sample: 
+\]
+
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\...
+[2/50] GT:270.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[3/50] GT:60.0 | Gen:None | INCOHERENT
+   Sample: 
+\]
+\]
+\]
+\text
+\text
+\text
+\text
+\text
+\text
+\text
+\text
+\t...
+[4/50] GT:28.0 | Gen:None | INCOHERENT
+   Sample:  \ \text{ \text}
+\]
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ...
+[5/50] GT:2.0 | Gen:None | INCOHERENT
+   Sample:  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \...
+[6/50] GT:12.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[7/50] GT:80.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[8/50] GT:60.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[9/50] GT:300.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[10/50] GT:240.0 | Gen:None | INCOHERENT
+   Sample: 
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]...
+[11/50] GT:110.0 | Gen:None | INCOHERENT
+   Sample: \)) people
+ \)
+ \)
+ \)
+ \)
+ \)
+ \)
+ \)
+ \)
+ \)
+ \)
+ \)
+ \)
+ ...
+[12/50] GT:34.0 | Gen:None | INCOHERENT
+   Sample: 
+ \]
+ \text \text \text \text \text \text \text \text \text ...
+[13/50] GT:40.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[14/50] GT:25.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[15/50] GT:10.0 | Gen:None | INCOHERENT
+   Sample: 
+ \]
+ \text \text \text \text \text \text \text \text \text ...
+[16/50] GT:4.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[17/50] GT:48.0 | Gen:None | INCOHERENT
+   Sample: 
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]...
+[18/50] GT:110.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[19/50] GT:16.0 | Gen:None | INCOHERENT
+   Sample: 
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]...
+[20/50] GT:140.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[21/50] GT:109.0 | Gen:None | INCOHERENT
+   Sample: \]
+\text \text \text \text \text \text \text \text \text \te...
+[22/50] GT:1000.0 | Gen:None | INCOHERENT
+   Sample: 
+\]
+\text
+\text
+\text
+\text
+\text
+\text
+\text
+\text
+\text
+\t...
+[23/50] GT:240.0 | Gen:None | INCOHERENT
+   Sample: 
+\]
+\]
+\text \text \text \text \text \text \text \text \text...
+[24/50] GT:50.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[25/50] GT:1.0 | Gen:None | INCOHERENT
+   Sample: 
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]...
+[26/50] GT:800.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[27/50] GT:3.0 | Gen:None | INCOHERENT
+   Sample: 
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]...
+[28/50] GT:12.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[29/50] GT:88.0 | Gen:None | INCOHERENT
+   Sample: 
+\]
+\]
+\text \text \text \text \text \text \text \text \text...
+[30/50] GT:360.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[31/50] GT:70.0 | Gen:None | INCOHERENT
+   Sample:  \]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]...
+[32/50] GT:84.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[33/50] GT:16.0 | Gen:None | INCOHERENT
+   Sample: 
+\]
+\ \text
+\text
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ...
+[34/50] GT:40.0 | Gen:None | INCOHERENT
+   Sample:  \) cubic inches.
+ \)
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \...
+[35/50] GT:6.0 | Gen:None | INCOHERENT
+   Sample: 
+\ \text{ \text}
+\ \text \text
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \...
+[36/50] GT:250.0 | Gen:None | INCOHERENT
+   Sample: ) hours, \text\) hours\) \) \) \) \) \) \) \) \) \) \) \) \)...
+[37/50] GT:6.0 | Gen:None | INCOHERENT
+   Sample: \) miles\)
+\)
+\)
+\)
+\)
+\)
+\)
+\)
+\)
+\)
+\)
+\)
+\)
+\)
+\)
+\)
+\)
+\...
+[38/50] GT:45.0 | Gen:None | INCOHERENT
+   Sample:  \ \text \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \...
+[39/50] GT:32.0 | Gen:None | INCOHERENT
+   Sample: 
+ \]
+ \]
+ So, \text \text \text \text \text \text \text \tex...
+[40/50] GT:20.0 | Gen:None | INCOHERENT
+   Sample:  \ \text \text \text \text \text \text \text \text \text \te...
+[41/50] GT:36.0 | Gen:None | INCOHERENT
+   Sample:  \text]
+ \text \text \text \text \text \text \text \text \te...
+[42/50] GT:17.0 | Gen:None | INCOHERENT
+   Sample: 
+\]
+So, there are 4 \text \text \text \text \text \text \tex...
+[43/50] GT:15.0 | Gen:None | INCOHERENT
+   Sample:  \text{ minutes}
+ \]
+ \text \text \text \text \text \text \t...
+[44/50] GT:160.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[45/50] GT:8.0 | Gen:None | INCOHERENT
+   Sample: 
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]...
+[46/50] GT:72.0 | Gen:None | INCOHERENT
+   Sample: \) inches\)
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \)
+ \)
+ \)
+ \)
+ \)
+...
+[47/50] GT:16.0 | Gen:None | INCOHERENT
+   Sample: 
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]
+ \]...
+[48/50] GT:40.0 | Gen:None | INCOHERENT
+   Sample:  \]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]...
+[49/50] GT:76.0 | Gen:None | INCOHERENT
+   Sample:  \text \text \text \text \text \text \text \text \text \text...
+[50/50] GT:76.0 | Gen:None | INCOHERENT
+   Sample: 
+ \]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\]
+\...
+
+RESULTS: 0/50 (0.0%) Forced Faithful
+Coherent: 0/50
+Saved to [C]-03-output.json

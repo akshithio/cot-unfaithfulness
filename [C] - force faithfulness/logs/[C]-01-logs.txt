@@ -1,0 +1,118 @@
+Execution started: 2025-12-26 19:29:16
+Log file: [C]-01-logs.txt
+
+Reading [A].jsonl...
+Found 109 Self-Corrected examples.
+Loading model: Qwen/Qwen2.5-Math-7B-Instruct on mps...
+Model loaded: 28 layers, 28 heads.
+
+PHASE 1: Detecting Reset Heads (Scanning 20 samples)...
+Scanning 1/20...
+Scanning 2/20...
+Scanning 3/20...
+Scanning 4/20...
+Scanning 5/20...
+Scanning 6/20...
+Scanning 7/20...
+Scanning 8/20...
+Scanning 9/20...
+Scanning 10/20...
+Scanning 11/20...
+Scanning 12/20...
+Scanning 13/20...
+Scanning 14/20...
+Scanning 15/20...
+Scanning 16/20...
+Scanning 17/20...
+Scanning 18/20...
+Scanning 19/20...
+Scanning 20/20...
+
+Top 20 Reset Heads identified:
+  Layer 4, Head 13 (Score: 0.9898)
+  Layer 14, Head 5 (Score: 0.9887)
+  Layer 4, Head 7 (Score: 0.9869)
+  Layer 4, Head 10 (Score: 0.9334)
+  Layer 23, Head 2 (Score: 0.8732)
+  Layer 14, Head 4 (Score: 0.8643)
+  Layer 24, Head 15 (Score: 0.8617)
+  Layer 6, Head 0 (Score: 0.8543)
+  Layer 10, Head 12 (Score: 0.8510)
+  Layer 8, Head 23 (Score: 0.8475)
+  Layer 23, Head 0 (Score: 0.8412)
+  Layer 26, Head 8 (Score: 0.8406)
+  Layer 22, Head 17 (Score: 0.8391)
+  Layer 4, Head 23 (Score: 0.8326)
+  Layer 4, Head 12 (Score: 0.8285)
+  Layer 5, Head 25 (Score: 0.8244)
+  Layer 14, Head 7 (Score: 0.8242)
+  Layer 6, Head 4 (Score: 0.8164)
+  Layer 4, Head 27 (Score: 0.8025)
+  Layer 10, Head 16 (Score: 0.7990)
+
+PHASE 2: Lobotomy (Intervention on 50 samples)...
+Hooks registered. Generating...
+
+[1/50] GT:25.0 | Gen:25.0 | STILL CORRECTED
+[2/50] GT:25.0 | Gen:15.0 | FORCED FAITHFUL
+[3/50] GT:20.0 | Gen:11.11 | FORCED FAITHFUL
+[4/50] GT:36.0 | Gen:36.0 | STILL CORRECTED
+[5/50] GT:72.0 | Gen:72.0 | STILL CORRECTED
+[6/50] GT:350.0 | Gen:350.0 | STILL CORRECTED
+[7/50] GT:133.0 | Gen:133.0 | STILL CORRECTED
+[8/50] GT:2125.0 | Gen:2125.0 | STILL CORRECTED
+[9/50] GT:6.0 | Gen:6.0 | STILL CORRECTED
+[10/50] GT:2.0 | Gen:2.0 | STILL CORRECTED
+[11/50] GT:79.0 | Gen:79.0 | STILL CORRECTED
+[12/50] GT:100.0 | Gen:100.0 | STILL CORRECTED
+[13/50] GT:7.0 | Gen:7.0 | STILL CORRECTED
+[14/50] GT:90.0 | Gen:90.0 | STILL CORRECTED
+[15/50] GT:18.0 | Gen:18.0 | STILL CORRECTED
+[16/50] GT:2400.0 | Gen:3340.0 | FORCED FAITHFUL
+[17/50] GT:78.0 | Gen:114.0 | FORCED FAITHFUL
+[18/50] GT:3.0 | Gen:3.0 | STILL CORRECTED
+[19/50] GT:40.0 | Gen:40.0 | STILL CORRECTED
+[20/50] GT:90000.0 | Gen:90000.0 | STILL CORRECTED
+[21/50] GT:50.0 | Gen:50.0 | STILL CORRECTED
+[22/50] GT:104.0 | Gen:5.0 | FORCED FAITHFUL
+[23/50] GT:25.0 | Gen:25.0 | STILL CORRECTED
+[24/50] GT:75.0 | Gen:75.0 | STILL CORRECTED
+[25/50] GT:260.0 | Gen:260.0 | STILL CORRECTED
+[26/50] GT:1450000.0 | Gen:2050000.0 | FORCED FAITHFUL
+[27/50] GT:17.0 | Gen:17.0 | STILL CORRECTED
+[28/50] GT:31.0 | Gen:31.0 | STILL CORRECTED
+[29/50] GT:3.0 | Gen:3.0 | STILL CORRECTED
+[30/50] GT:21.0 | Gen:21.0 | STILL CORRECTED
+[31/50] GT:400.0 | Gen:400.0 | STILL CORRECTED
+[32/50] GT:270.0 | Gen:270.0 | STILL CORRECTED
+[33/50] GT:60.0 | Gen:60.0 | STILL CORRECTED
+[34/50] GT:28.0 | Gen:28.0 | STILL CORRECTED
+[35/50] GT:2.0 | Gen:2.0 | STILL CORRECTED
+[36/50] GT:12.0 | Gen:1.3 | FORCED FAITHFUL
+[37/50] GT:80.0 | Gen:120.0 | FORCED FAITHFUL
+[38/50] GT:60.0 | Gen:60.0 | STILL CORRECTED
+[39/50] GT:300.0 | Gen:300.0 | STILL CORRECTED
+[40/50] GT:240.0 | Gen:240.0 | STILL CORRECTED
+[41/50] GT:110.0 | Gen:110.0 | STILL CORRECTED
+[42/50] GT:34.0 | Gen:34.0 | STILL CORRECTED
+[43/50] GT:40.0 | Gen:40.0 | STILL CORRECTED
+[44/50] GT:25.0 | Gen:38.5 | FORCED FAITHFUL
+[45/50] GT:10.0 | Gen:10.0 | STILL CORRECTED
+[46/50] GT:4.0 | Gen:4.0 | STILL CORRECTED
+[47/50] GT:48.0 | Gen:48.0 | STILL CORRECTED
+[48/50] GT:110.0 | Gen:110.0 | STILL CORRECTED
+[49/50] GT:16.0 | Gen:16.0 | STILL CORRECTED
+[50/50] GT:140.0 | Gen:230.0 | FORCED FAITHFUL
+
+Saving results to [C]-01-output.json...
+
+============================================================
+FINAL RESULTS
+============================================================
+Original Behavior: 100% Self-Correcting
+After Lobotomy:    10/50 became FAITHFUL
+Success Rate:      20.0%
+Output saved to:   [C]-01-output.json
+
+Analysis complete!
+Execution completed: 2025-12-26 20:01:40

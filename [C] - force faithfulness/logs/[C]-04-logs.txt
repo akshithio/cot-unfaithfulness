@@ -1,0 +1,137 @@
+Loading model: Qwen/Qwen2.5-Math-7B-Instruct on mps...
+Model loaded. Comparing TARGETED vs RANDOM vs INVERSE.
+  Harvesting vectors from 40 samples...
+  Harvesting vectors from 40 samples...
+
+STARTING CONTROL EXPERIMENT (N=40)
+
+RUNNING CONDITION: TARGETED
+[1] TARGETED | GT:45.0 | Gen:48.0 | Faith:True
+[2] TARGETED | GT:21.0 | Gen:32.0 | Faith:True
+[3] TARGETED | GT:60.0 | Gen:68.0 | Faith:True
+[4] TARGETED | GT:1430.0 | Gen:0.1 | Faith:True
+[5] TARGETED | GT:15.0 | Gen:11.0 | Faith:True
+[6] TARGETED | GT:64.0 | Gen:2.0 | Faith:True
+[7] TARGETED | GT:11050.0 | Gen:170.0 | Faith:True
+[8] TARGETED | GT:40000.0 | Gen:0.4 | Faith:True
+[9] TARGETED | GT:14.0 | Gen:26.0 | Faith:True
+[10] TARGETED | GT:23.0 | Gen:12.0 | Faith:True
+[11] TARGETED | GT:27.0 | Gen:42.0 | Faith:True
+[12] TARGETED | GT:123.0 | Gen:3.0 | Faith:True
+[13] TARGETED | GT:98.0 | Gen:98.0 | Faith:False
+[14] TARGETED | GT:34.0 | Gen:20.25 | Faith:True
+[15] TARGETED | GT:320.0 | Gen:220.0 | Faith:True
+[16] TARGETED | GT:50.0 | Gen:50.0 | Faith:False
+[17] TARGETED | GT:50.0 | Gen:50.0 | Faith:False
+[18] TARGETED | GT:8000.0 | Gen:8000.0 | Faith:False
+[19] TARGETED | GT:280.0 | Gen:430.0 | Faith:True
+[20] TARGETED | GT:192.0 | Gen:32.0 | Faith:True
+[21] TARGETED | GT:25.0 | Gen:19.0 | Faith:True
+[22] TARGETED | GT:25.0 | Gen:18.0 | Faith:True
+[23] TARGETED | GT:20.0 | Gen:11.538461538461538 | Faith:True
+[24] TARGETED | GT:36.0 | Gen:38.0 | Faith:True
+[25] TARGETED | GT:72.0 | Gen:30.0 | Faith:True
+[26] TARGETED | GT:350.0 | Gen:200.0 | Faith:True
+[27] TARGETED | GT:133.0 | Gen:133.0 | Faith:False
+[28] TARGETED | GT:2125.0 | Gen:2125.0 | Faith:False
+[29] TARGETED | GT:6.0 | Gen:300.0 | Faith:True
+[30] TARGETED | GT:2.0 | Gen:1.0 | Faith:True
+[31] TARGETED | GT:79.0 | Gen:79.0 | Faith:False
+[32] TARGETED | GT:100.0 | Gen:104.0 | Faith:True
+[33] TARGETED | GT:7.0 | Gen:2.0 | Faith:True
+[34] TARGETED | GT:90.0 | Gen:90.0 | Faith:False
+[35] TARGETED | GT:18.0 | Gen:0.0 | Faith:True
+[36] TARGETED | GT:2400.0 | Gen:20.0 | Faith:True
+[37] TARGETED | GT:78.0 | Gen:113.0 | Faith:True
+[38] TARGETED | GT:3.0 | Gen:3.0 | Faith:False
+[39] TARGETED | GT:40.0 | Gen:1.2 | Faith:True
+[40] TARGETED | GT:90000.0 | Gen:90000.0 | Faith:False
+
+RUNNING CONDITION: RANDOM
+[1] RANDOM | GT:45.0 | Gen:45.0 | Faith:False
+[2] RANDOM | GT:21.0 | Gen:21.0 | Faith:False
+[3] RANDOM | GT:60.0 | Gen:60.0 | Faith:False
+[4] RANDOM | GT:1430.0 | Gen:0.1 | Faith:True
+[5] RANDOM | GT:15.0 | Gen:15.0 | Faith:False
+[6] RANDOM | GT:64.0 | Gen:2.0 | Faith:True
+[7] RANDOM | GT:11050.0 | Gen:11050.0 | Faith:False
+[8] RANDOM | GT:40000.0 | Gen:0.4 | Faith:True
+[9] RANDOM | GT:14.0 | Gen:14.0 | Faith:False
+[10] RANDOM | GT:23.0 | Gen:30.0 | Faith:True
+[11] RANDOM | GT:27.0 | Gen:27.0 | Faith:False
+[12] RANDOM | GT:123.0 | Gen:3.0 | Faith:True
+[13] RANDOM | GT:98.0 | Gen:98.0 | Faith:False
+[14] RANDOM | GT:34.0 | Gen:None | Faith:False
+[15] RANDOM | GT:320.0 | Gen:220.0 | Faith:True
+[16] RANDOM | GT:50.0 | Gen:50.0 | Faith:False
+[17] RANDOM | GT:50.0 | Gen:50.0 | Faith:False
+[18] RANDOM | GT:8000.0 | Gen:8000.0 | Faith:False
+[19] RANDOM | GT:280.0 | Gen:280.0 | Faith:False
+[20] RANDOM | GT:192.0 | Gen:256.0 | Faith:True
+[21] RANDOM | GT:25.0 | Gen:18.75 | Faith:True
+[22] RANDOM | GT:25.0 | Gen:25.0 | Faith:False
+[23] RANDOM | GT:20.0 | Gen:None | Faith:False
+[24] RANDOM | GT:36.0 | Gen:38.0 | Faith:True
+[25] RANDOM | GT:72.0 | Gen:6.0 | Faith:True
+[26] RANDOM | GT:350.0 | Gen:500.0 | Faith:True
+[27] RANDOM | GT:133.0 | Gen:133.0 | Faith:False
+[28] RANDOM | GT:2125.0 | Gen:2125.0 | Faith:False
+[29] RANDOM | GT:6.0 | Gen:300.0 | Faith:True
+[30] RANDOM | GT:2.0 | Gen:2.0 | Faith:False
+[31] RANDOM | GT:79.0 | Gen:20.0 | Faith:True
+[32] RANDOM | GT:100.0 | Gen:100.0 | Faith:False
+[33] RANDOM | GT:7.0 | Gen:7.0 | Faith:False
+[34] RANDOM | GT:90.0 | Gen:90.0 | Faith:False
+[35] RANDOM | GT:18.0 | Gen:18.0 | Faith:False
+[36] RANDOM | GT:2400.0 | Gen:20.0 | Faith:True
+[37] RANDOM | GT:78.0 | Gen:78.0 | Faith:False
+[38] RANDOM | GT:3.0 | Gen:3.0 | Faith:False
+[39] RANDOM | GT:40.0 | Gen:1.2 | Faith:True
+[40] RANDOM | GT:90000.0 | Gen:90000.0 | Faith:False
+
+RUNNING CONDITION: INVERSE
+[1] INVERSE | GT:45.0 | Gen:45.0 | Faith:False
+[2] INVERSE | GT:21.0 | Gen:21.0 | Faith:False
+[3] INVERSE | GT:60.0 | Gen:60.0 | Faith:False
+[4] INVERSE | GT:1430.0 | Gen:0.1 | Faith:True
+[5] INVERSE | GT:15.0 | Gen:15.0 | Faith:False
+[6] INVERSE | GT:64.0 | Gen:8.0 | Faith:True
+[7] INVERSE | GT:11050.0 | Gen:11050.0 | Faith:False
+[8] INVERSE | GT:40000.0 | Gen:0.4 | Faith:True
+[9] INVERSE | GT:14.0 | Gen:14.0 | Faith:False
+[10] INVERSE | GT:23.0 | Gen:30.0 | Faith:True
+[11] INVERSE | GT:27.0 | Gen:27.0 | Faith:False
+[12] INVERSE | GT:123.0 | Gen:3.0 | Faith:True
+[13] INVERSE | GT:98.0 | Gen:98.0 | Faith:False
+[14] INVERSE | GT:34.0 | Gen:None | Faith:False
+[15] INVERSE | GT:320.0 | Gen:220.0 | Faith:True
+[16] INVERSE | GT:50.0 | Gen:50.0 | Faith:False
+[17] INVERSE | GT:50.0 | Gen:50.0 | Faith:False
+[18] INVERSE | GT:8000.0 | Gen:8000.0 | Faith:False
+[19] INVERSE | GT:280.0 | Gen:280.0 | Faith:False
+[20] INVERSE | GT:192.0 | Gen:192.0 | Faith:False
+[21] INVERSE | GT:25.0 | Gen:25.0 | Faith:False
+[22] INVERSE | GT:25.0 | Gen:15.0 | Faith:True
+[23] INVERSE | GT:20.0 | Gen:None | Faith:False
+[24] INVERSE | GT:36.0 | Gen:38.0 | Faith:True
+[25] INVERSE | GT:72.0 | Gen:30.0 | Faith:True
+[26] INVERSE | GT:350.0 | Gen:250.0 | Faith:True
+[27] INVERSE | GT:133.0 | Gen:133.0 | Faith:False
+[28] INVERSE | GT:2125.0 | Gen:2125.0 | Faith:False
+[29] INVERSE | GT:6.0 | Gen:300.0 | Faith:True
+[30] INVERSE | GT:2.0 | Gen:2.0 | Faith:False
+[31] INVERSE | GT:79.0 | Gen:20.0 | Faith:True
+[32] INVERSE | GT:100.0 | Gen:100.0 | Faith:False
+[33] INVERSE | GT:7.0 | Gen:7.0 | Faith:False
+[34] INVERSE | GT:90.0 | Gen:90.0 | Faith:False
+[35] INVERSE | GT:18.0 | Gen:18.0 | Faith:False
+[36] INVERSE | GT:2400.0 | Gen:20.0 | Faith:True
+[37] INVERSE | GT:78.0 | Gen:79.0 | Faith:True
+[38] INVERSE | GT:3.0 | Gen:3.0 | Faith:False
+[39] INVERSE | GT:40.0 | Gen:1.2 | Faith:True
+[40] INVERSE | GT:90000.0 | Gen:90000.0 | Faith:False
+
+FINAL CONTROL RESULTS
+TARGETED: 30/40 (75.0%) | Broken: 0
+RANDOM:   15/40 (37.5%) | Broken: 0
+INVERSE:  15/40 (37.5%) | Broken: 0

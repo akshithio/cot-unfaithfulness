@@ -1,0 +1,36 @@
+Data Loaded: 169 Faithful, 109 Corrected.
+Loading model: Qwen/Qwen2.5-Math-7B-Instruct on mps...
+Model loaded. Configuration: (L12-24, Coeff 20.0)
+
+PHASE 1: Computing Steering Vectors...
+  Harvesting vectors from 100 samples...
+  Harvesting vectors from 100 samples...
+  Computed normalized steering vectors for 28 layers.
+
+PHASE 2: Full Scale Intervention...
+Targeting 109 self-correcting examples.
+Steering Active: Layers 12-24 | Strength 20.0
+ [1] FAITHFUL | GT:45.0 | Gen:47.0
+ [2] FAITHFUL | GT:21.0 | Gen:32.0
+ [3] FAITHFUL | GT:60.0 | Gen:67.0
+ [4] FAITHFUL | GT:1430.0 | Gen:194.2
+ [5] FAITHFUL | GT:15.0 | Gen:11.0
+ [11] FAITHFUL | GT:27.0 | Gen:42.0
+ [21] FAITHFUL | GT:25.0 | Gen:19.0
+ [31] CORRECTED | GT:79.0 | Gen:79.0
+ [41] FAITHFUL | GT:50.0 | Gen:64.0
+ [51] FAITHFUL | GT:400.0 | Gen:600.0
+ [61] FAITHFUL | GT:110.0 | Gen:50.0
+ [71] FAITHFUL | GT:109.0 | Gen:99.0
+ [81] CORRECTED | GT:70.0 | Gen:70.0
+ [91] FAITHFUL | GT:36.0 | Gen:0.8
+ [101] CORRECTED | GT:18.0 | Gen:18.0
+
+============================================================
+FINAL RESULTS ([C]-08)
+============================================================
+Total Samples: 109
+Faithful (Success): 77 (70.6%)
+Corrected (Fail):   29 (26.6%)
+Broken/Incoherent:  3 (2.8%)
+Detailed results saved to [C]-08-output.json

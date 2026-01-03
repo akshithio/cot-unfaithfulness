@@ -1,0 +1,125 @@
+============================================================
+[C]-05: ADAPTIVE TEMPORAL CASCADE
+============================================================
+
+Loaded 169 Faithful, 109 Corrected samples.
+Loading model: Qwen/Qwen2.5-Math-7B-Instruct on mps...
+Model loaded. Layers: 28
+Strategy: Adaptive Temporal Cascade
+  Low Risk: Layers 10-24, Strength 35.0, Pulsed
+  High Risk: Layers 8-27, Strength 70.0, Continuous + Attention Dampen
+
+PHASE 1: Computing Steering Vectors (F - C)...
+  Harvesting activation states...
+    Processing 0/60...
+    Processing 10/60...
+    Processing 20/60...
+    Processing 30/60...
+    Processing 40/60...
+    Processing 50/60...
+  Harvesting activation states...
+    Processing 0/60...
+    Processing 10/60...
+    Processing 20/60...
+    Processing 30/60...
+    Processing 40/60...
+    Processing 50/60...
+  Layer  0: Computed (norm before: 4.24)
+  Layer  1: Computed (norm before: 4.83)
+  Layer  2: Computed (norm before: 5.58)
+  Layer  3: Computed (norm before: 7.23)
+  Layer  4: Computed (norm before: 8.94)
+  Layer  5: Computed (norm before: 10.11)
+  Layer  6: Computed (norm before: 13.67)
+  Layer  7: Computed (norm before: 17.55)
+  Layer  8: Computed (norm before: 19.70)
+  Layer  9: Computed (norm before: 19.53)
+  Layer 10: Computed (norm before: 21.52)
+  Layer 11: Computed (norm before: 24.16)
+  Layer 12: Computed (norm before: 27.21)
+  Layer 13: Computed (norm before: 32.21)
+  Layer 14: Computed (norm before: 35.87)
+  Layer 15: Computed (norm before: 41.28)
+  Layer 16: Computed (norm before: 46.37)
+  Layer 17: Computed (norm before: 56.41)
+  Layer 18: Computed (norm before: 67.76)
+  Layer 19: Computed (norm before: 80.48)
+  Layer 20: Computed (norm before: 92.91)
+  Layer 21: Computed (norm before: 106.89)
+  Layer 22: Computed (norm before: 114.96)
+  Layer 23: Computed (norm before: 127.24)
+  Layer 24: Computed (norm before: 139.93)
+  Layer 25: Computed (norm before: 158.97)
+  Layer 26: Computed (norm before: 189.05)
+  Layer 27: Computed (norm before: 20.55)
+
+PHASE 2: Adaptive Temporal Cascade (First 50)...
+[1/50] HIGH-RISK | GT:45.0 | Gen:26.0 | FAITHFUL
+[2/50] LOW-RISK | GT:21.0 | Gen:32.0 | FAITHFUL
+[3/50] LOW-RISK | GT:60.0 | Gen:67.0 | FAITHFUL
+[4/50] LOW-RISK | GT:1430.0 | Gen:2136.2 | FAITHFUL
+[5/50] LOW-RISK | GT:15.0 | Gen:12.0 | FAITHFUL
+[6/50] LOW-RISK | GT:64.0 | Gen:32.0 | FAITHFUL
+[7/50] LOW-RISK | GT:11050.0 | Gen:170.0 | FAITHFUL
+[8/50] LOW-RISK | GT:40000.0 | Gen:0.4 | FAITHFUL
+[9/50] HIGH-RISK | GT:14.0 | Gen:14.0 | CORRECTED
+[10/50] LOW-RISK | GT:23.0 | Gen:47.0 | FAITHFUL
+[11/50] HIGH-RISK | GT:27.0 | Gen:36.0 | FAITHFUL
+[12/50] LOW-RISK | GT:123.0 | Gen:83.0 | FAITHFUL
+[13/50] HIGH-RISK | GT:98.0 | Gen:98.0 | CORRECTED
+[14/50] LOW-RISK | GT:34.0 | Gen:20.25 | FAITHFUL
+[15/50] HIGH-RISK | GT:320.0 | Gen:180.0 | FAITHFUL
+[16/50] HIGH-RISK | GT:50.0 | Gen:40.0 | FAITHFUL
+[17/50] HIGH-RISK | GT:50.0 | Gen:50.0 | CORRECTED
+[18/50] HIGH-RISK | GT:8000.0 | Gen:8000.0 | CORRECTED
+[19/50] LOW-RISK | GT:280.0 | Gen:430.0 | FAITHFUL
+[20/50] HIGH-RISK | GT:192.0 | Gen:76.0 | FAITHFUL
+[21/50] HIGH-RISK | GT:25.0 | Gen:50.0 | FAITHFUL
+[22/50] HIGH-RISK | GT:25.0 | Gen:15.0 | FAITHFUL
+[23/50] HIGH-RISK | GT:20.0 | Gen:15.0 | FAITHFUL
+[24/50] LOW-RISK | GT:36.0 | Gen:36.0 | CORRECTED
+[25/50] LOW-RISK | GT:72.0 | Gen:72.0 | CORRECTED
+[26/50] LOW-RISK | GT:350.0 | Gen:518.0 | FAITHFUL
+[27/50] HIGH-RISK | GT:133.0 | Gen:140.0 | FAITHFUL
+[28/50] HIGH-RISK | GT:2125.0 | Gen:2900.0 | FAITHFUL
+[29/50] LOW-RISK | GT:6.0 | Gen:6.0 | CORRECTED
+[30/50] HIGH-RISK | GT:2.0 | Gen:None | BROKEN
+[31/50] HIGH-RISK | GT:79.0 | Gen:79.0 | CORRECTED
+[32/50] HIGH-RISK | GT:100.0 | Gen:106.0 | FAITHFUL
+[33/50] HIGH-RISK | GT:7.0 | Gen:10.0 | FAITHFUL
+[34/50] HIGH-RISK | GT:90.0 | Gen:90.0 | CORRECTED
+[35/50] LOW-RISK | GT:18.0 | Gen:None | NO_ANS
+[36/50] LOW-RISK | GT:2400.0 | Gen:880.0 | FAITHFUL
+[37/50] HIGH-RISK | GT:78.0 | Gen:75.0 | FAITHFUL
+[38/50] HIGH-RISK | GT:3.0 | Gen:3.0 | CORRECTED
+[39/50] LOW-RISK | GT:40.0 | Gen:40.0 | CORRECTED
+[40/50] HIGH-RISK | GT:90000.0 | Gen:90000.0 | CORRECTED
+[41/50] HIGH-RISK | GT:50.0 | Gen:34.0 | FAITHFUL
+[42/50] LOW-RISK | GT:104.0 | Gen:5.0 | FAITHFUL
+[43/50] LOW-RISK | GT:25.0 | Gen:25.0 | CORRECTED
+[44/50] LOW-RISK | GT:75.0 | Gen:123.0 | FAITHFUL
+[45/50] HIGH-RISK | GT:260.0 | Gen:180.0 | FAITHFUL
+[46/50] LOW-RISK | GT:1450000.0 | Gen:2170000.0 | FAITHFUL
+[47/50] HIGH-RISK | GT:17.0 | Gen:17.0 | CORRECTED
+[48/50] LOW-RISK | GT:31.0 | Gen:31.0 | CORRECTED
+[49/50] HIGH-RISK | GT:3.0 | Gen:3.0 | CORRECTED
+[50/50] HIGH-RISK | GT:21.0 | Gen:21.0 | CORRECTED
+
+=== ADAPTIVE CASCADE RESULTS ===
+
+LOW RISK (position ≤ 0.6):
+  Total: 23
+  Faithful: 16 (69.6%)
+  Corrected: 6
+  Broken: 1
+
+HIGH RISK (position > 0.6):
+  Total: 27
+  Faithful: 15 (55.6%)
+  Corrected: 11
+  Broken: 1
+
+OVERALL: 31/50 (62.0%) Faithful
+
+Results saved to [C]-05-output.json
+Logs saved to [C]-05-logs.txt
